@@ -53,28 +53,6 @@ Jede Etappe führt in drei Mini-Étapes neue Wörter und Gesprächsgerüste ein.
 2. eine französische Antwort als Lückentext ergänzen
 3. eine vollständige Antwort selbst formulieren
 
-## Auf GitHub Pages veröffentlichen
-
-> Wichtig: Nicht nur `index.html`, sondern **alle Dateien dieses Ordners** gemeinsam in das Stammverzeichnis des Repositorys hochladen. `index.html` wird von GitHub Pages automatisch als Startseite erkannt.
-
-1. Auf [github.com/new](https://github.com/new) ein neues Repository mit dem Namen `france-quest` anlegen.
-2. Im Repository **Add file → Upload files** wählen.
-3. Alle Dateien aus diesem Ordner hineinziehen und mit **Commit changes** bestätigen.
-4. Unter **Settings → Pages** bei **Build and deployment** die Quelle **Deploy from a branch** auswählen.
-5. Den Branch **main** und den Ordner **/ (root)** festlegen und speichern.
-
-Die öffentliche Adresse lautet anschließend normalerweise:
-
-```text
-https://DEIN-GITHUB-NAME.github.io/france-quest/
-```
-
-GitHubs offizielle Anleitungen: [Dateien hochladen](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository) · [GitHub Pages konfigurieren](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
-## Lokal ausprobieren
-
-Für einen schnellen Blick kann `index.html` direkt geöffnet werden. Für Installation und Offline-Modus sollte die App über GitHub Pages oder einen lokalen Webserver aufgerufen werden, da Service Worker nicht über `file://` laufen.
-
 ## Auf dem Smartphone installieren
 
 - **iPhone/iPad:** GitHub-Pages-Adresse in Safari öffnen → Teilen → **Zum Home-Bildschirm**
